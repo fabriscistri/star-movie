@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/Navbar/1200px-STAR_Movies_logo.svg.png);
+}
+.formRegister {
+    width: 400px;
+    background-color: darkgray;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+}
+.formRegister h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.control {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    border: 2px solid #1f53c5
+}
+.formRegister P {
+    height: 30px;
+    text-align: center;
+}
+.formRegister a {
+    color: white;
+    text-decoration: none;
+}
+.formRegister a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.formRegister .boton {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}

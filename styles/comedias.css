@@ -1,0 +1,59 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.logoImg {
+  width: 6%;
+  margin-right: 10px;
+}
+
+h4 {
+  color: aliceblue;
+  margin: 20px;
+}
+.container {
+  display: flex;
+  padding: 0;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-comedy {
+  position: relative;
+  overflow: hidden;
+}
+.image-comedy img {
+  width: 230px;
+  height: auto;
+}
+p {
+  color: aliceblue;
+}
+.video-comedy {
+  display: flex;
+
+}
+h1 {
+  color: aliceblue;
+}
+footer {
+  background-color: black;
+}
