@@ -60,6 +60,11 @@ h4 {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.img-responsive-custom {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
 h1 {
   color: aliceblue;
 }
